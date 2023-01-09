@@ -18,8 +18,8 @@ export class App extends Component {
   }
 
   handleClick = evt => {
-
       const {name} = evt.target;
+      
       this.setState(prevState => ({
         [name]: prevState[name] + 1,
       }));
